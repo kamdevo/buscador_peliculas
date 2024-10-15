@@ -45,8 +45,11 @@ function App() {
           type="text"
           placeholder="The Batman..."
           />
-          <input type="checkbox" onChange={handleSort} checked={sort} />
           <button>Search</button>
+          <div className="checkbox_content">
+          <input type="checkbox" onChange={handleSort} checked={sort} />
+          <label htmlFor="checkbox"><strong>Sort by title (A-Z)</strong></label>
+          </div>
         </form>
         {error && <p style={{color: 'red'}}>{error}</p>}
       </header>

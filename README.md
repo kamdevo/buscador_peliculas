@@ -23,6 +23,8 @@ Primera iteración:
 
 ✅ Evitar que se haga la misma búsqueda dos veces seguidas.
 
+✅ Tener la opción de organizar las películas por su nombre (A-B)
+
 ✅ Haz que la búsqueda se haga automáticamente al escribir.
 
 ✅ Evita que se haga la búsqueda continuamente al escribir (debounce)
